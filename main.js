@@ -53,6 +53,31 @@ document.getElementById('select-punto').addEventListener('change', function(e) {
 
 
 
-
-
+function myFunction() {
+    var x = document.getElementById("select-punto").value;
+    if (x == "-36.31519985325913, -57.67656241608313"){
+        document.body.style.backgroundImage = "url('./imagenes/ciudadDolores.jpg')";
+    } else if (x == "-36.31130914450173, -57.67970862580451"){
+        document.body.style.backgroundImage = "url('./imagenes/sanatorioRegional.jpg')";
+    } else if (x == "-36.31342724322603, -57.675331260677424"){
+        document.body.style.backgroundImage = "url('./imagenes/sanatorioDolores.jpg')";
+    } else if (x == "-36.311413256963085, -57.652486907993755"){
+        document.body.style.backgroundImage = "url('./imagenes/parqueTermalDolores.jfif')";
+    } else if (x == "-36.31534645034187, -57.67557802390798"){
+        document.body.style.backgroundImage = "url('./imagenes/plazaCastelli.jfif')";
+    } else if (x == "-36.318306, -57.685518"){
+        document.body.style.backgroundImage = "url('./imagenes/plazaMoreno.jpg')";
+    } else if (x == "-36.321453, -57.694402"){
+        document.body.style.backgroundImage = "url('./imagenes/lagoLibresDelSur.jfif')";
+    } else if (x == "-36.325948, -57.698693"){
+        document.body.style.backgroundImage = "url('./imagenes/autodromoDolores.jpg')";
+    } else if (x == "-36.329578, -57.680009"){
+        document.body.style.backgroundImage = "url('./imagenes/plazaSoldadoMalvinas.jpg')";
+    } else if (x == "-36.323562, -57.693157"){
+        document.body.style.backgroundImage = "url('./imagenes/cementerioDolores.jfif')";
+    } else if (x == "-36.323225, -57.674124"){
+        document.body.style.backgroundImage = "url('./imagenes/estadioDelforDelValle.jpg')";
+    }
+    
+  }
 
