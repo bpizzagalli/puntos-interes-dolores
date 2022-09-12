@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+
+    text-align: center;
+
+}
+#map{
+    width: 800px;
+    height: 600px;
+    position: relative;
+    outline: none;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+    margin-top: 50px;
+    
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+#select-punto{
+    width: 200px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: block;
+}
